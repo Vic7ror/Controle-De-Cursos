@@ -13,7 +13,7 @@ Lenguage: C#, SQL.
 
 --------------------------------------------
 
-# Prints dos formulários:
+## Prints dos formulários:
 
 1. Tela inicial.
    
@@ -33,7 +33,7 @@ Lenguage: C#, SQL.
 
 --------------------------------------------
 
-5. Gifs dos formulários em execução:
+## Gifs dos formulários em execução:
 
 Professores:
 ![Tela Inicial](/PrintsGifs/GifProfessores.gif)
