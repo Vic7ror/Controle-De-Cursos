@@ -55,16 +55,16 @@
             // lbl_codTurma
             // 
             this.lbl_codTurma.AutoSize = true;
-            this.lbl_codTurma.Location = new System.Drawing.Point(3, 14);
+            this.lbl_codTurma.Location = new System.Drawing.Point(3, 13);
             this.lbl_codTurma.Name = "lbl_codTurma";
-            this.lbl_codTurma.Size = new System.Drawing.Size(154, 21);
+            this.lbl_codTurma.Size = new System.Drawing.Size(370, 21);
             this.lbl_codTurma.TabIndex = 0;
-            this.lbl_codTurma.Text = "Código da Turma:";
+            this.lbl_codTurma.Text = "Código da Turma para edição ou exclusão:";
             // 
             // lbl_dtInicio
             // 
             this.lbl_dtInicio.AutoSize = true;
-            this.lbl_dtInicio.Location = new System.Drawing.Point(3, 62);
+            this.lbl_dtInicio.Location = new System.Drawing.Point(3, 122);
             this.lbl_dtInicio.Name = "lbl_dtInicio";
             this.lbl_dtInicio.Size = new System.Drawing.Size(145, 21);
             this.lbl_dtInicio.TabIndex = 1;
@@ -73,7 +73,7 @@
             // lbl_hrInicio
             // 
             this.lbl_hrInicio.AutoSize = true;
-            this.lbl_hrInicio.Location = new System.Drawing.Point(3, 110);
+            this.lbl_hrInicio.Location = new System.Drawing.Point(3, 162);
             this.lbl_hrInicio.Name = "lbl_hrInicio";
             this.lbl_hrInicio.Size = new System.Drawing.Size(118, 21);
             this.lbl_hrInicio.TabIndex = 2;
@@ -82,7 +82,7 @@
             // lbl_professor
             // 
             this.lbl_professor.AutoSize = true;
-            this.lbl_professor.Location = new System.Drawing.Point(3, 158);
+            this.lbl_professor.Location = new System.Drawing.Point(3, 202);
             this.lbl_professor.Name = "lbl_professor";
             this.lbl_professor.Size = new System.Drawing.Size(127, 21);
             this.lbl_professor.TabIndex = 3;
@@ -91,7 +91,7 @@
             // lbl_Curso
             // 
             this.lbl_Curso.AutoSize = true;
-            this.lbl_Curso.Location = new System.Drawing.Point(278, 16);
+            this.lbl_Curso.Location = new System.Drawing.Point(3, 51);
             this.lbl_Curso.Name = "lbl_Curso";
             this.lbl_Curso.Size = new System.Drawing.Size(64, 21);
             this.lbl_Curso.TabIndex = 4;
@@ -100,7 +100,7 @@
             // dt_termino
             // 
             this.dt_termino.AutoSize = true;
-            this.dt_termino.Location = new System.Drawing.Point(278, 65);
+            this.dt_termino.Location = new System.Drawing.Point(278, 122);
             this.dt_termino.Name = "dt_termino";
             this.dt_termino.Size = new System.Drawing.Size(154, 21);
             this.dt_termino.TabIndex = 5;
@@ -109,7 +109,7 @@
             // lbl_hrTermino
             // 
             this.lbl_hrTermino.AutoSize = true;
-            this.lbl_hrTermino.Location = new System.Drawing.Point(278, 115);
+            this.lbl_hrTermino.Location = new System.Drawing.Point(278, 162);
             this.lbl_hrTermino.Name = "lbl_hrTermino";
             this.lbl_hrTermino.Size = new System.Drawing.Size(154, 21);
             this.lbl_hrTermino.TabIndex = 6;
@@ -118,14 +118,14 @@
             // txt_codTurma
             // 
             this.txt_codTurma.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_codTurma.Location = new System.Drawing.Point(163, 14);
+            this.txt_codTurma.Location = new System.Drawing.Point(379, 11);
             this.txt_codTurma.Name = "txt_codTurma";
-            this.txt_codTurma.Size = new System.Drawing.Size(100, 26);
+            this.txt_codTurma.Size = new System.Drawing.Size(159, 26);
             this.txt_codTurma.TabIndex = 7;
             // 
             // txt_dtInicio
             // 
-            this.txt_dtInicio.Location = new System.Drawing.Point(154, 62);
+            this.txt_dtInicio.Location = new System.Drawing.Point(154, 122);
             this.txt_dtInicio.Mask = "00/00/0000";
             this.txt_dtInicio.Name = "txt_dtInicio";
             this.txt_dtInicio.Size = new System.Drawing.Size(109, 26);
@@ -134,7 +134,7 @@
             // 
             // txt_horaInicio
             // 
-            this.txt_horaInicio.Location = new System.Drawing.Point(127, 110);
+            this.txt_horaInicio.Location = new System.Drawing.Point(127, 162);
             this.txt_horaInicio.Mask = "90:00";
             this.txt_horaInicio.Name = "txt_horaInicio";
             this.txt_horaInicio.Size = new System.Drawing.Size(53, 26);
@@ -144,7 +144,7 @@
             // cbx_professor
             // 
             this.cbx_professor.FormattingEnabled = true;
-            this.cbx_professor.Location = new System.Drawing.Point(127, 155);
+            this.cbx_professor.Location = new System.Drawing.Point(127, 199);
             this.cbx_professor.Name = "cbx_professor";
             this.cbx_professor.Size = new System.Drawing.Size(136, 29);
             this.cbx_professor.TabIndex = 10;
@@ -152,14 +152,14 @@
             // cbx_curso
             // 
             this.cbx_curso.FormattingEnabled = true;
-            this.cbx_curso.Location = new System.Drawing.Point(348, 13);
+            this.cbx_curso.Location = new System.Drawing.Point(7, 75);
             this.cbx_curso.Name = "cbx_curso";
-            this.cbx_curso.Size = new System.Drawing.Size(190, 29);
+            this.cbx_curso.Size = new System.Drawing.Size(531, 29);
             this.cbx_curso.TabIndex = 11;
             // 
             // txt_dtTermino
             // 
-            this.txt_dtTermino.Location = new System.Drawing.Point(429, 65);
+            this.txt_dtTermino.Location = new System.Drawing.Point(429, 122);
             this.txt_dtTermino.Mask = "00/00/0000";
             this.txt_dtTermino.Name = "txt_dtTermino";
             this.txt_dtTermino.Size = new System.Drawing.Size(109, 26);
@@ -168,7 +168,7 @@
             // 
             // txt_horaTermino
             // 
-            this.txt_horaTermino.Location = new System.Drawing.Point(429, 115);
+            this.txt_horaTermino.Location = new System.Drawing.Point(429, 162);
             this.txt_horaTermino.Mask = "90:00";
             this.txt_horaTermino.Name = "txt_horaTermino";
             this.txt_horaTermino.Size = new System.Drawing.Size(53, 26);
@@ -194,14 +194,14 @@
             this.panel1.Controls.Add(this.txt_codTurma);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(555, 201);
+            this.panel1.Size = new System.Drawing.Size(555, 250);
             this.panel1.TabIndex = 14;
             // 
             // dtg_turmas
             // 
             this.dtg_turmas.BackgroundColor = System.Drawing.Color.White;
             this.dtg_turmas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtg_turmas.Location = new System.Drawing.Point(12, 275);
+            this.dtg_turmas.Location = new System.Drawing.Point(12, 348);
             this.dtg_turmas.Name = "dtg_turmas";
             this.dtg_turmas.Size = new System.Drawing.Size(555, 226);
             this.dtg_turmas.TabIndex = 16;
@@ -211,7 +211,7 @@
             this.btn_Listar.BackColor = System.Drawing.Color.Turquoise;
             this.btn_Listar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Listar.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Listar.Location = new System.Drawing.Point(421, 228);
+            this.btn_Listar.Location = new System.Drawing.Point(408, 293);
             this.btn_Listar.Name = "btn_Listar";
             this.btn_Listar.Size = new System.Drawing.Size(102, 32);
             this.btn_Listar.TabIndex = 21;
@@ -225,7 +225,7 @@
             this.btn_Excluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Excluir.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Excluir.ForeColor = System.Drawing.Color.White;
-            this.btn_Excluir.Location = new System.Drawing.Point(299, 228);
+            this.btn_Excluir.Location = new System.Drawing.Point(286, 293);
             this.btn_Excluir.Name = "btn_Excluir";
             this.btn_Excluir.Size = new System.Drawing.Size(102, 32);
             this.btn_Excluir.TabIndex = 20;
@@ -238,7 +238,7 @@
             this.btn_Alterar.BackColor = System.Drawing.Color.Khaki;
             this.btn_Alterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Alterar.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Alterar.Location = new System.Drawing.Point(188, 228);
+            this.btn_Alterar.Location = new System.Drawing.Point(175, 293);
             this.btn_Alterar.Name = "btn_Alterar";
             this.btn_Alterar.Size = new System.Drawing.Size(102, 32);
             this.btn_Alterar.TabIndex = 19;
@@ -251,7 +251,7 @@
             this.btn_cadastrar.BackColor = System.Drawing.Color.LemonChiffon;
             this.btn_cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_cadastrar.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cadastrar.Location = new System.Drawing.Point(69, 228);
+            this.btn_cadastrar.Location = new System.Drawing.Point(56, 293);
             this.btn_cadastrar.Name = "btn_cadastrar";
             this.btn_cadastrar.Size = new System.Drawing.Size(102, 32);
             this.btn_cadastrar.TabIndex = 18;
@@ -264,7 +264,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
-            this.ClientSize = new System.Drawing.Size(579, 512);
+            this.ClientSize = new System.Drawing.Size(579, 588);
             this.Controls.Add(this.btn_Listar);
             this.Controls.Add(this.btn_Excluir);
             this.Controls.Add(this.btn_Alterar);

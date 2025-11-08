@@ -34,7 +34,6 @@
             this.txt_nomeCurso = new System.Windows.Forms.TextBox();
             this.lbl_conteudo = new System.Windows.Forms.Label();
             this.txt_conteudo = new System.Windows.Forms.TextBox();
-            this.txt_mensalidade = new System.Windows.Forms.TextBox();
             this.lbl_mensalidade = new System.Windows.Forms.Label();
             this.lbl_cargaHoraria = new System.Windows.Forms.Label();
             this.txt_cargaHorária = new System.Windows.Forms.TextBox();
@@ -44,6 +43,7 @@
             this.btn_Excluir = new System.Windows.Forms.Button();
             this.btn_Listar = new System.Windows.Forms.Button();
             this.dtg_cursos = new System.Windows.Forms.DataGridView();
+            this.txt_mensalidade = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_cursos)).BeginInit();
             this.SuspendLayout();
@@ -51,9 +51,9 @@
             // txt_codCurso
             // 
             this.txt_codCurso.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_codCurso.Location = new System.Drawing.Point(163, 10);
+            this.txt_codCurso.Location = new System.Drawing.Point(370, 7);
             this.txt_codCurso.Name = "txt_codCurso";
-            this.txt_codCurso.Size = new System.Drawing.Size(100, 26);
+            this.txt_codCurso.Size = new System.Drawing.Size(77, 26);
             this.txt_codCurso.TabIndex = 0;
             // 
             // lbl_codCurso
@@ -62,9 +62,9 @@
             this.lbl_codCurso.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_codCurso.Location = new System.Drawing.Point(3, 10);
             this.lbl_codCurso.Name = "lbl_codCurso";
-            this.lbl_codCurso.Size = new System.Drawing.Size(154, 21);
+            this.lbl_codCurso.Size = new System.Drawing.Size(361, 21);
             this.lbl_codCurso.TabIndex = 1;
-            this.lbl_codCurso.Text = "Código do Curso:";
+            this.lbl_codCurso.Text = "Código do Curso para edição e exclusão:";
             // 
             // lbl_nomeCurso
             // 
@@ -81,7 +81,7 @@
             this.txt_nomeCurso.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nomeCurso.Location = new System.Drawing.Point(138, 51);
             this.txt_nomeCurso.Name = "txt_nomeCurso";
-            this.txt_nomeCurso.Size = new System.Drawing.Size(263, 26);
+            this.txt_nomeCurso.Size = new System.Drawing.Size(309, 26);
             this.txt_nomeCurso.TabIndex = 3;
             // 
             // lbl_conteudo
@@ -101,14 +101,6 @@
             this.txt_conteudo.Name = "txt_conteudo";
             this.txt_conteudo.Size = new System.Drawing.Size(444, 138);
             this.txt_conteudo.TabIndex = 5;
-            // 
-            // txt_mensalidade
-            // 
-            this.txt_mensalidade.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_mensalidade.Location = new System.Drawing.Point(7, 295);
-            this.txt_mensalidade.Name = "txt_mensalidade";
-            this.txt_mensalidade.Size = new System.Drawing.Size(195, 26);
-            this.txt_mensalidade.TabIndex = 6;
             // 
             // lbl_mensalidade
             // 
@@ -218,6 +210,14 @@
             this.dtg_cursos.Size = new System.Drawing.Size(454, 199);
             this.dtg_cursos.TabIndex = 15;
             // 
+            // txt_mensalidade
+            // 
+            this.txt_mensalidade.Font = new System.Drawing.Font("Cascadia Code", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_mensalidade.Location = new System.Drawing.Point(7, 295);
+            this.txt_mensalidade.Name = "txt_mensalidade";
+            this.txt_mensalidade.Size = new System.Drawing.Size(195, 26);
+            this.txt_mensalidade.TabIndex = 6;
+            // 
             // frm_Cursos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -250,7 +250,6 @@
         private System.Windows.Forms.TextBox txt_nomeCurso;
         private System.Windows.Forms.Label lbl_conteudo;
         private System.Windows.Forms.TextBox txt_conteudo;
-        private System.Windows.Forms.TextBox txt_mensalidade;
         private System.Windows.Forms.Label lbl_mensalidade;
         private System.Windows.Forms.Label lbl_cargaHoraria;
         private System.Windows.Forms.TextBox txt_cargaHorária;
@@ -260,6 +259,7 @@
         private System.Windows.Forms.Button btn_Excluir;
         private System.Windows.Forms.Button btn_Listar;
         private System.Windows.Forms.DataGridView dtg_cursos;
+        private System.Windows.Forms.TextBox txt_mensalidade;
     }
 }
 

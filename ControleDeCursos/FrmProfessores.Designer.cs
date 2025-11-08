@@ -34,17 +34,17 @@
             this.lbl_telefone = new System.Windows.Forms.Label();
             this.txt_codProf = new System.Windows.Forms.TextBox();
             this.txt_nomeProf = new System.Windows.Forms.TextBox();
-            this.txt_telefone = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txt_valorHora = new System.Windows.Forms.NumericUpDown();
             this.btn_Cadastrar = new System.Windows.Forms.Button();
             this.btn_alterar = new System.Windows.Forms.Button();
             this.btn_excluir = new System.Windows.Forms.Button();
             this.btn_listar = new System.Windows.Forms.Button();
             this.dtg_professores = new System.Windows.Forms.DataGridView();
-            this.txt_valorHora = new System.Windows.Forms.NumericUpDown();
+            this.mkd_telefone = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtg_professores)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_valorHora)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtg_professores)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_codProfessor
@@ -52,9 +52,9 @@
             this.lbl_codProfessor.AutoSize = true;
             this.lbl_codProfessor.Location = new System.Drawing.Point(3, 12);
             this.lbl_codProfessor.Name = "lbl_codProfessor";
-            this.lbl_codProfessor.Size = new System.Drawing.Size(190, 21);
+            this.lbl_codProfessor.Size = new System.Drawing.Size(487, 21);
             this.lbl_codProfessor.TabIndex = 0;
-            this.lbl_codProfessor.Text = "Código do Professor:";
+            this.lbl_codProfessor.Text = "Digite o código do professor para editar ou excluir: ";
             // 
             // lbl_nomeProf
             // 
@@ -86,33 +86,25 @@
             // txt_codProf
             // 
             this.txt_codProf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_codProf.Location = new System.Drawing.Point(199, 12);
+            this.txt_codProf.Location = new System.Drawing.Point(496, 10);
             this.txt_codProf.Name = "txt_codProf";
-            this.txt_codProf.Size = new System.Drawing.Size(135, 26);
+            this.txt_codProf.Size = new System.Drawing.Size(76, 26);
             this.txt_codProf.TabIndex = 4;
             // 
             // txt_nomeProf
             // 
             this.txt_nomeProf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_nomeProf.Location = new System.Drawing.Point(199, 55);
+            this.txt_nomeProf.Location = new System.Drawing.Point(190, 55);
             this.txt_nomeProf.Name = "txt_nomeProf";
-            this.txt_nomeProf.Size = new System.Drawing.Size(373, 26);
+            this.txt_nomeProf.Size = new System.Drawing.Size(382, 26);
             this.txt_nomeProf.TabIndex = 5;
-            // 
-            // txt_telefone
-            // 
-            this.txt_telefone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_telefone.Location = new System.Drawing.Point(428, 104);
-            this.txt_telefone.Name = "txt_telefone";
-            this.txt_telefone.Size = new System.Drawing.Size(144, 26);
-            this.txt_telefone.TabIndex = 7;
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.mkd_telefone);
             this.panel1.Controls.Add(this.txt_valorHora);
             this.panel1.Controls.Add(this.lbl_codProfessor);
-            this.panel1.Controls.Add(this.txt_telefone);
             this.panel1.Controls.Add(this.lbl_nomeProf);
             this.panel1.Controls.Add(this.lbl_valorAula);
             this.panel1.Controls.Add(this.txt_nomeProf);
@@ -122,6 +114,13 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(586, 142);
             this.panel1.TabIndex = 8;
+            // 
+            // txt_valorHora
+            // 
+            this.txt_valorHora.Location = new System.Drawing.Point(190, 102);
+            this.txt_valorHora.Name = "txt_valorHora";
+            this.txt_valorHora.Size = new System.Drawing.Size(135, 26);
+            this.txt_valorHora.TabIndex = 8;
             // 
             // btn_Cadastrar
             // 
@@ -181,19 +180,20 @@
             this.dtg_professores.Size = new System.Drawing.Size(586, 220);
             this.dtg_professores.TabIndex = 13;
             // 
-            // txt_valorHora
+            // mkd_telefone
             // 
-            this.txt_valorHora.Location = new System.Drawing.Point(190, 102);
-            this.txt_valorHora.Name = "txt_valorHora";
-            this.txt_valorHora.Size = new System.Drawing.Size(135, 26);
-            this.txt_valorHora.TabIndex = 8;
+            this.mkd_telefone.Location = new System.Drawing.Point(428, 101);
+            this.mkd_telefone.Mask = "(99) 00000-0000";
+            this.mkd_telefone.Name = "mkd_telefone";
+            this.mkd_telefone.Size = new System.Drawing.Size(144, 26);
+            this.mkd_telefone.TabIndex = 9;
             // 
             // frm_professores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PeachPuff;
-            this.ClientSize = new System.Drawing.Size(610, 459);
+            this.ClientSize = new System.Drawing.Size(610, 458);
             this.Controls.Add(this.dtg_professores);
             this.Controls.Add(this.btn_listar);
             this.Controls.Add(this.btn_excluir);
@@ -209,8 +209,8 @@
             this.Load += new System.EventHandler(this.frm_professores_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtg_professores)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_valorHora)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtg_professores)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -223,7 +223,6 @@
         private System.Windows.Forms.Label lbl_telefone;
         private System.Windows.Forms.TextBox txt_codProf;
         private System.Windows.Forms.TextBox txt_nomeProf;
-        private System.Windows.Forms.TextBox txt_telefone;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_Cadastrar;
         private System.Windows.Forms.Button btn_alterar;
@@ -231,5 +230,6 @@
         private System.Windows.Forms.Button btn_listar;
         private System.Windows.Forms.DataGridView dtg_professores;
         private System.Windows.Forms.NumericUpDown txt_valorHora;
+        private System.Windows.Forms.MaskedTextBox mkd_telefone;
     }
 }
