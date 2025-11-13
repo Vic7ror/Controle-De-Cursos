@@ -32,15 +32,13 @@ Feito em 2021.
 
 ## Gifs dos formulários em execução:
 
-- Professores:
+Professores:
  - ![Tela Inicial](/PrintsGifs/GifProfessores.gif)
 
---------------------------------------------
 
-- Cursos:
+Cursos:
  - ![Tela Inicial](/PrintsGifs/GifCursos.gif)
 
---------------------------------------------
 
-- Turmas
+Turmas
  - ![Tela Inicial](/PrintsGifs/GifTurmas.gif)
