@@ -28,7 +28,7 @@ Feito em 2021.
 4. Formulário de Turmas.
  - ![Tela Inicial](/PrintsGifs/FrmTurma.png)
 
---------------------------------------------
+
 
 ## Gifs dos formulários em execução:
 
