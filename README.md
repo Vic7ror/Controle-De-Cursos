@@ -9,7 +9,8 @@
 Feito em 2021.
 --------------------------------------------
 
-Lenguage: C#, SQL.
+Aplicativos usados: Visual Studio, MySQL Workbench
+Lenguage C#, SQL
 
 --------------------------------------------
 
