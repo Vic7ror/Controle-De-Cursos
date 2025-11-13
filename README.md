@@ -9,8 +9,8 @@
 Feito em 2021.
 --------------------------------------------
 
-Aplicativos usados: Visual Studio, MySQL Workbench
-Lenguage C#, SQL
+- Aplicativos usados: Visual Studio, MySQL Workbench
+- Lenguage C#, SQL
 
 --------------------------------------------
 
