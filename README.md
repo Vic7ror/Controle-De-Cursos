@@ -17,34 +17,30 @@ Feito em 2021.
 ## Prints dos formulários:
 
 1. Tela inicial.
-   
-![Tela Inicial](/PrintsGifs/FrmPrincipal.png)
+ - ![Tela Inicial](/PrintsGifs/FrmPrincipal.png)
 
 2. Formulário de Professores.
-   
-![Tela Inicial](/PrintsGifs/FrmProfessor.png)
+ - ![Tela Inicial](/PrintsGifs/FrmProfessor.png)
 
 3 Formulário de Cursos.
-
-![Tela Inicial](/PrintsGifs/FrmCurso.png)
+ - ![Tela Inicial](/PrintsGifs/FrmCurso.png)
 
 4. Formulário de Turmas.
-   
-![Tela Inicial](/PrintsGifs/FrmTurma.png)
+ - ![Tela Inicial](/PrintsGifs/FrmTurma.png)
 
 --------------------------------------------
 
 ## Gifs dos formulários em execução:
 
-Professores:
-![Tela Inicial](/PrintsGifs/GifProfessores.gif)
+- Professores:
+ - ![Tela Inicial](/PrintsGifs/GifProfessores.gif)
 
 --------------------------------------------
 
-Cursos:
-![Tela Inicial](/PrintsGifs/GifCursos.gif)
+- Cursos:
+ - ![Tela Inicial](/PrintsGifs/GifCursos.gif)
 
 --------------------------------------------
 
-Turmas
-![Tela Inicial](/PrintsGifs/GifTurmas.gif)
+- Turmas
+ - ![Tela Inicial](/PrintsGifs/GifTurmas.gif)
